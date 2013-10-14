@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffbdbdc7"
+    android:focusable="false"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/namecard_group_top_rl"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/qr_mk_bg_bottom_radius01" >
+
+        <TextView
+            android:id="@+id/namecard_group_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:shadowColor="#ff000000"
+            android:text="그룹 관리"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff3f3ff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical|bottom" >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/qr_mk_et_all_radius01"
+            android:ems="10"
+            android:hint="새 그룹"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textColor="#fff3f3ff"
+            android:textColorHint="#fff3f3ff"
+            android:textSize="14sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/qr_mk_btn_all_radius03"
+            android:text="추가"
+            android:textColor="#fff3f3ff"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/qr_mk_btn_all_radius03"
+            android:text="삭제"
+            android:textColor="#fff3f3ff"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/namecard_group_up_sign_rl"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/namecard_group_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_weight="1"
+        android:background="@drawable/qr_mk_btn_all_radius04" >
+
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/namecard_group_down_sign_rl"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+    </RelativeLayout>
+
+</LinearLayout>

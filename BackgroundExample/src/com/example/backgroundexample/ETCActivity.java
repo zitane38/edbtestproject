@@ -9,8 +9,9 @@ import android.widget.RelativeLayout;
 
 public class ETCActivity extends Activity implements OnClickListener{
 	
+	private static final String TAG = "ETCActivity";
 	private RelativeLayout topRl;
-
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub

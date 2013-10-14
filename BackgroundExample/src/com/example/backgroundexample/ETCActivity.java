@@ -10,6 +10,7 @@ import android.widget.RelativeLayout;
 public class ETCActivity extends Activity implements OnClickListener{
 	
 	private static final String TAG = "ETCActivity";
+	private static final String TAG1 = "ETCActivity";
 	private RelativeLayout topRl;
 	
 	@Override
